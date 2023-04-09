@@ -1,0 +1,828 @@
+{
+    "items": [
+        {
+            "service": "tanker",
+            "title": "Заправка топливом",
+            "fuel_types": [],
+            "limits": {},
+            "is_fleet_limit": false,
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 5
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": true,
+            "id": "41c27535defe4bfd9e74e54adc951727"
+        },
+        {
+            "service": "eats2",
+            "title": "Обеды и перекусы",
+            "is_qr_enabled": false,
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 5
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": true,
+            "id": "4b51dd8a8c544297ad618203d2ea1174"
+        },
+        {
+            "service": "taxi",
+            "title": "Основной Такси",
+            "categories": [
+                "business",
+                "cargo",
+                "courier",
+                "econom",
+                "express",
+                "maybach",
+                "premium_van",
+                "ultimate",
+                "vip"
+            ],
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 30
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": true,
+            "id": "fc2dec49b1d5401580e45f8bca129e92"
+        },
+        {
+            "service": "drive",
+            "title": "Поездки на каршеринге",
+            "limits": {
+                "orders_cost": {
+                    "value": "10000",
+                    "period": "month"
+                }
+            },
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 4
+            },
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": true,
+            "enable_toll_roads": true,
+            "id": "c423c068f60a4107826a817769459393"
+        },
+        {
+            "service": "tanker",
+            "title": "авто",
+            "fuel_types": [
+                "carwash",
+                "a80",
+                "a92",
+                "a95",
+                "a98",
+                "a100",
+                "a92_premium",
+                "a95_premium",
+                "a98_premium",
+                "a100_premium",
+                "diesel",
+                "diesel_winter",
+                "diesel_demiseason",
+                "diesel_premium",
+                "metan",
+                "propane",
+                "icefree"
+            ],
+            "limits": {},
+            "is_fleet_limit": false,
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "b1a37df29e3b4367a3a05106dd93eb30"
+        },
+        {
+            "service": "taxi",
+            "title": "Дополнительный Лимит Доставка",
+            "categories": [
+                "cargo",
+                "courier",
+                "express",
+                "minivan"
+            ],
+            "limits": {},
+            "time_restrictions": [
+                {
+                    "type": "weekly_date",
+                    "start_time": "11:00:00",
+                    "end_time": "17:00:00",
+                    "days": [
+                        "mo",
+                        "tu",
+                        "we",
+                        "th",
+                        "fr"
+                    ]
+                }
+            ],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "2207213414c64856a14ac6aaae21621c"
+        },
+        {
+            "service": "taxi",
+            "title": "Дополнительный ЛимитТакси",
+            "categories": [
+                "business",
+                "child_tariff",
+                "comfortplus",
+                "econom"
+            ],
+            "limits": {
+                "orders_cost": {
+                    "value": "100",
+                    "period": "month"
+                }
+            },
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 1
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "86b1cb58f625482ea81883d9db929f5a"
+        },
+        {
+            "service": "drive",
+            "title": "Драйв 5000",
+            "limits": {
+                "orders_cost": {
+                    "value": "5000",
+                    "period": "month"
+                }
+            },
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 1
+            },
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "enable_toll_roads": true,
+            "id": "9490e945073341e2ae2ec9dec570e0e9"
+        },
+        {
+            "service": "eats2",
+            "title": "Еда 5000",
+            "is_qr_enabled": false,
+            "limits": {
+                "orders_cost": {
+                    "value": "6000",
+                    "period": "month"
+                }
+            },
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 1
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "8e668b54c92e43bcb31afbf8500dcbd7"
+        },
+        {
+            "service": "tanker",
+            "title": "Заправки 5000",
+            "fuel_types": [
+                "carwash",
+                "a80",
+                "a92",
+                "a95",
+                "a98",
+                "a100",
+                "a92_premium",
+                "a95_premium",
+                "a98_premium",
+                "a100_premium",
+                "diesel",
+                "diesel_winter",
+                "diesel_demiseason",
+                "diesel_premium",
+                "metan",
+                "propane",
+                "icefree"
+            ],
+            "limits": {
+                "orders_cost": {
+                    "value": "5000",
+                    "period": "month",
+                    "kind": "money"
+                }
+            },
+            "is_fleet_limit": false,
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 2
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "004334180ea643afa69b934ddd028eaa"
+        },
+        {
+            "service": "taxi",
+            "title": "Лимит 1",
+            "categories": [
+                "comfortplus"
+            ],
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "1b8a32cda37b4e3ab9a9f4ee1745809a"
+        },
+        {
+            "service": "taxi",
+            "title": "Лимит 2",
+            "categories": [
+                "comfortplus"
+            ],
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "ea175f7e43b245cb8b87105b68922709"
+        },
+        {
+            "service": "taxi",
+            "title": "Мой лимит",
+            "categories": [
+                "business",
+                "cargo",
+                "child_tariff",
+                "comfortplus",
+                "courier",
+                "econom",
+                "express",
+                "maybach",
+                "minivan",
+                "premium_van",
+                "ultimate",
+                "vip"
+            ],
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "a43c72c838644c039fb6f21ca51a5f44"
+        },
+        {
+            "service": "drive",
+            "title": "Мой лимит на Драйв",
+            "limits": {
+                "orders_cost": {
+                    "value": "10000",
+                    "period": "month"
+                }
+            },
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "enable_toll_roads": true,
+            "id": "00c6e95baf4f4d5b986e7b299a407162"
+        },
+        {
+            "service": "tanker",
+            "title": "Новый лимит",
+            "fuel_types": [],
+            "limits": {
+                "orders_cost": {
+                    "value": "1000",
+                    "period": "month",
+                    "kind": "money"
+                }
+            },
+            "is_fleet_limit": false,
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "0e0cafc8f4f54c4fb363c541d70eae0b"
+        },
+        {
+            "service": "taxi",
+            "title": "Такси 5000",
+            "categories": [
+                "business",
+                "cargo",
+                "child_tariff",
+                "comfortplus",
+                "courier",
+                "econom",
+                "express",
+                "maybach",
+                "minivan",
+                "premium_van",
+                "ultimate",
+                "vip"
+            ],
+            "limits": {
+                "orders_cost": {
+                    "value": "5000",
+                    "period": "month"
+                }
+            },
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 1
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "181c4672d3904ef197d08e397eb2113b"
+        },
+        {
+            "service": "eats2",
+            "title": "ХАВЧИК",
+            "is_qr_enabled": true,
+            "limits": {},
+            "time_restrictions": [
+                {
+                    "type": "range_date",
+                    "start_date": "2023-03-09T00:00:00",
+                    "end_date": "2023-03-15T23:59:59"
+                }
+            ],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "81dbb83895624f7dafdb0c33a28b54b3"
+        },
+        {
+            "service": "eats2",
+            "title": "Шведскикй стол",
+            "is_qr_enabled": false,
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "8b9ac375201f495eab6108e654e90129"
+        },
+        {
+            "service": "taxi",
+            "title": "1fe1d62aefa044ae88ec98df699ca159",
+            "categories": [
+                "cargo"
+            ],
+            "limits": {
+                "orders_cost": {
+                    "value": "50000",
+                    "period": "week"
+                }
+            },
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "1fe1d62aefa044ae88ec98df699ca159"
+        },
+        {
+            "service": "taxi",
+            "title": "288c7f42f648410caca54ac732b30729",
+            "categories": [
+                "business",
+                "cargo",
+                "child_tariff",
+                "comfortplus",
+                "courier",
+                "econom",
+                "express",
+                "maybach",
+                "minivan",
+                "premium_van",
+                "ultimate",
+                "vip"
+            ],
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "288c7f42f648410caca54ac732b30729"
+        },
+        {
+            "service": "taxi",
+            "title": "2be770748c3047b58a0280d9b3815ea0",
+            "categories": [
+                "business",
+                "cargo",
+                "child_tariff",
+                "comfortplus",
+                "courier",
+                "econom",
+                "express",
+                "maybach",
+                "minivan",
+                "premium_van",
+                "ultimate",
+                "vip"
+            ],
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "2be770748c3047b58a0280d9b3815ea0"
+        },
+        {
+            "service": "taxi",
+            "title": "30b8361e28ed4dae97a8a8e8c0be608b",
+            "categories": [
+                "business",
+                "cargo",
+                "child_tariff",
+                "comfortplus",
+                "courier",
+                "econom",
+                "express",
+                "maybach",
+                "minivan",
+                "premium_van",
+                "ultimate",
+                "vip"
+            ],
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "30b8361e28ed4dae97a8a8e8c0be608b"
+        },
+        {
+            "service": "taxi",
+            "title": "30bdc803207740f2a2d99e194ca9bccc",
+            "categories": [
+                "business",
+                "cargo",
+                "child_tariff",
+                "comfortplus",
+                "courier",
+                "econom",
+                "express",
+                "maybach",
+                "minivan",
+                "premium_van",
+                "ultimate",
+                "vip"
+            ],
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "30bdc803207740f2a2d99e194ca9bccc"
+        },
+        {
+            "service": "taxi",
+            "title": "428cf16494b740e49909af6f20276886",
+            "categories": [
+                "business",
+                "cargo",
+                "child_tariff",
+                "comfortplus",
+                "courier",
+                "econom",
+                "express",
+                "maybach",
+                "minivan",
+                "premium_van",
+                "ultimate",
+                "vip"
+            ],
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "428cf16494b740e49909af6f20276886"
+        },
+        {
+            "service": "taxi",
+            "title": "6e755a8f8978445bb659844d0422b518",
+            "categories": [
+                "business",
+                "cargo",
+                "child_tariff",
+                "comfortplus",
+                "courier",
+                "econom",
+                "express",
+                "maybach",
+                "minivan",
+                "premium_van",
+                "ultimate",
+                "vip"
+            ],
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "6e755a8f8978445bb659844d0422b518"
+        },
+        {
+            "service": "drive",
+            "title": "7fb2a4264fd24e468b94aec5e8eec096",
+            "limits": {
+                "orders_cost": {
+                    "value": "10000",
+                    "period": "month"
+                }
+            },
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": -4
+            },
+            "department_id": "f219740839784c7fa485dd627866245d",
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "enable_toll_roads": true,
+            "id": "7fb2a4264fd24e468b94aec5e8eec096"
+        },
+        {
+            "service": "taxi",
+            "title": "82f9e8fdafcb434198fb822383d3c1cd",
+            "categories": [
+                "business",
+                "cargo",
+                "child_tariff",
+                "comfortplus",
+                "courier",
+                "econom",
+                "express",
+                "maybach",
+                "minivan",
+                "premium_van",
+                "ultimate",
+                "vip"
+            ],
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "82f9e8fdafcb434198fb822383d3c1cd"
+        },
+        {
+            "service": "taxi",
+            "title": "900fa8edbd2443b5b013988d618af254",
+            "categories": [
+                "business",
+                "cargo",
+                "child_tariff",
+                "comfortplus",
+                "courier",
+                "econom",
+                "express",
+                "maybach",
+                "minivan",
+                "premium_van",
+                "ultimate",
+                "vip"
+            ],
+            "limits": {
+                "orders_cost": {
+                    "value": "4000",
+                    "period": "month"
+                }
+            },
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "department_id": "1e7e933dbc564d568d302be282369ad5",
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "900fa8edbd2443b5b013988d618af254"
+        },
+        {
+            "service": "eats2",
+            "title": "9337f7ee0101498fb1afcdf43c7da3b1",
+            "is_qr_enabled": false,
+            "limits": {
+                "orders_cost": {
+                    "value": "12000",
+                    "period": "month"
+                }
+            },
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "9337f7ee0101498fb1afcdf43c7da3b1"
+        },
+        {
+            "service": "eats2",
+            "title": "9794cd79bf5b4a24bc41f51a223e055b",
+            "is_qr_enabled": false,
+            "limits": {
+                "orders_cost": {
+                    "value": "6000",
+                    "period": "month"
+                }
+            },
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "department_id": "1e7e933dbc564d568d302be282369ad5",
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "9794cd79bf5b4a24bc41f51a223e055b"
+        },
+        {
+            "service": "taxi",
+            "title": "Рабочий",
+            "categories": [
+                "business",
+                "comfortplus",
+                "econom"
+            ],
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "786428e041a7439aa7e51e34e3a6f0d6"
+        },
+        {
+            "service": "eats2",
+            "title": "d20237fe5e72489f9752bbb009966950",
+            "is_qr_enabled": false,
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 1
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "d20237fe5e72489f9752bbb009966950"
+        },
+        {
+            "service": "taxi",
+            "title": "d215defcaf8c46a1acbdc80fd94ffc90",
+            "categories": [
+                "business",
+                "cargo",
+                "child_tariff",
+                "comfortplus",
+                "courier",
+                "econom",
+                "express",
+                "maybach",
+                "minivan",
+                "premium_van",
+                "ultimate",
+                "vip"
+            ],
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "d215defcaf8c46a1acbdc80fd94ffc90"
+        },
+        {
+            "service": "taxi",
+            "title": "dc80e0bd32784c84962485e8ba3da264",
+            "categories": [
+                "business",
+                "cargo",
+                "child_tariff",
+                "comfortplus",
+                "courier",
+                "econom",
+                "express",
+                "maybach",
+                "minivan",
+                "premium_van",
+                "ultimate",
+                "vip"
+            ],
+            "limits": {},
+            "time_restrictions": [],
+            "can_edit": true,
+            "counters": {
+                "users": 0
+            },
+            "geo_restrictions": [],
+            "client_id": "9b5e3a678202470ea3996f636d7a8844",
+            "is_default": false,
+            "id": "dc80e0bd32784c84962485e8ba3da264"
+        }
+    ],
+    "limit": 50,
+    "offset": 0,
+    "total_amount": 34
+}

@@ -1,0 +1,18 @@
+{
+  "route": [
+    [
+      37.622504,
+      55.753215
+    ],
+    [
+      37.635813,
+      55.839525
+    ]
+  ],
+  "requirements": {
+    "nosmoking": true,
+    "conditioner": true
+  },
+  "phone": "+71234567890",
+  "selected_class": "econom"
+}

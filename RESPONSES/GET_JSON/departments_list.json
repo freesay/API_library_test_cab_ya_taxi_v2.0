@@ -1,0 +1,159 @@
+{
+    "items": [
+        {
+            "id": "6dad1023219542a38f2840397c2ca77c",
+            "name": "Подразделение 1",
+            "limits": {
+                "taxi": {
+                    "budget": null
+                },
+                "eats2": {
+                    "budget": null
+                },
+                "tanker": {
+                    "budget": null
+                },
+                "cargo": {
+                    "budget": null
+                }
+            },
+            "parent_id": null
+        },
+        {
+            "id": "4825a820f89843fba54539ddce3df92f",
+            "name": "Группа 1112",
+            "limits": {
+                "taxi": {
+                    "budget": 2000
+                },
+                "eats2": {
+                    "budget": null
+                },
+                "tanker": {
+                    "budget": null
+                },
+                "cargo": {
+                    "budget": null
+                }
+            },
+            "parent_id": "6dad1023219542a38f2840397c2ca77c"
+        },
+        {
+            "id": "75756aa11a644f349f97d0c3f11b8d8c",
+            "name": "омг какая группа",
+            "limits": {
+                "taxi": {
+                    "budget": null
+                },
+                "eats2": {
+                    "budget": null
+                },
+                "tanker": {
+                    "budget": null
+                },
+                "cargo": {
+                    "budget": null
+                }
+            },
+            "parent_id": "6dad1023219542a38f2840397c2ca77c"
+        },
+        {
+            "id": "dd1e9af9938e41aa8b36d7006a44088c",
+            "name": "вот да",
+            "limits": {
+                "taxi": {
+                    "budget": null
+                },
+                "eats2": {
+                    "budget": null
+                },
+                "tanker": {
+                    "budget": null
+                },
+                "cargo": {
+                    "budget": null
+                }
+            },
+            "parent_id": "75756aa11a644f349f97d0c3f11b8d8c"
+        },
+        {
+            "id": "3cb12564966c47b28ae920a738bb28f9",
+            "name": "Подразделение 2",
+            "limits": {
+                "taxi": {
+                    "budget": null
+                },
+                "eats2": {
+                    "budget": null
+                },
+                "tanker": {
+                    "budget": null
+                },
+                "cargo": {
+                    "budget": null
+                }
+            },
+            "parent_id": null
+        },
+        {
+            "id": "1e7e933dbc564d568d302be282369ad5",
+            "name": "Подразделение 3",
+            "limits": {
+                "taxi": {
+                    "budget": null
+                },
+                "eats2": {
+                    "budget": null
+                },
+                "tanker": {
+                    "budget": null
+                },
+                "cargo": {
+                    "budget": null
+                }
+            },
+            "parent_id": null
+        },
+        {
+            "id": "f219740839784c7fa485dd627866245d",
+            "name": "555",
+            "limits": {
+                "taxi": {
+                    "budget": null
+                },
+                "eats2": {
+                    "budget": null
+                },
+                "tanker": {
+                    "budget": null
+                },
+                "cargo": {
+                    "budget": null
+                }
+            },
+            "parent_id": "1e7e933dbc564d568d302be282369ad5"
+        },
+        {
+            "id": "74b25da1910543ada15b293b43a9b284",
+            "name": "Пашка",
+            "limits": {
+                "taxi": {
+                    "budget": null
+                },
+                "eats2": {
+                    "budget": null
+                },
+                "tanker": {
+                    "budget": null
+                },
+                "cargo": {
+                    "budget": null
+                }
+            },
+            "parent_id": null
+        }
+    ],
+    "limit": 100,
+    "offset": 0,
+    "total_amount": 8
+}

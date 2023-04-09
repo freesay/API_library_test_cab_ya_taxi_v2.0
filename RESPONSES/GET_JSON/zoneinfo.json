@@ -1,0 +1,690 @@
+{
+    "country_code": "RU",
+    "currency_code": "RUB",
+    "max_route_points_count": 5,
+    "timezone_offset": "+0300",
+    "tariff_classes": [
+        {
+            "name": "vip",
+            "name_translate": "Business",
+            "max_route_points_count": 6,
+            "has_extra_contact_phone": false,
+            "req_destination": false,
+            "supported_requirements": [
+                {
+                    "type": "select",
+                    "name": "childchair_for_child_tariff",
+                    "label": "Детское кресло",
+                    "select": {
+                        "options": [
+                            {
+                                "name": "booster",
+                                "label": "22–36 кг",
+                                "title": "Бустер, 6–12 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 7
+                            }
+                        ],
+                        "type": "number"
+                    },
+                    "multiselect": true,
+                    "max_weight": 2.0
+                },
+                {
+                    "type": "boolean",
+                    "name": "has_conditioner",
+                    "label": "Кондиционер"
+                },
+                {
+                    "type": "boolean",
+                    "name": "dont_open_door",
+                    "label": "Открою дверь самостоятельно"
+                },
+                {
+                    "type": "boolean",
+                    "name": "animaltransport",
+                    "label": "Перевозка домашнего животного"
+                },
+                {
+                    "type": "select",
+                    "name": "childchair_v2",
+                    "label": "Детское кресло",
+                    "select": {
+                        "options": [
+                            {
+                                "name": "infant",
+                                "label": "9–18 кг",
+                                "title": "Кресло, от 9 мес. до 4 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 1
+                            },
+                            {
+                                "name": "chair",
+                                "label": "15–25 кг",
+                                "title": "Кресло, 3–7 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 3
+                            },
+                            {
+                                "name": "booster",
+                                "label": "22–36 кг",
+                                "title": "Бустер, 6–12 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 7
+                            },
+                            {
+                                "name": "bassinet",
+                                "label": "До 13 кг",
+                                "title": "Люлька, до 1 года",
+                                "weight": 2.0,
+                                "max_count": 1,
+                                "value": 11
+                            },
+                            {
+                                "name": "own_chair",
+                                "label": "Своё детское кресло",
+                                "title": "Своё кресло",
+                                "weight": 1.0,
+                                "max_count": 1,
+                                "value": 10
+                            }
+                        ],
+                        "type": "number"
+                    },
+                    "multiselect": true,
+                    "max_weight": 2.0
+                }
+            ]
+        },
+        {
+            "name": "econom",
+            "name_translate": "Эконом",
+            "max_route_points_count": 5,
+            "has_extra_contact_phone": false,
+            "req_destination": false,
+            "supported_requirements": [
+                {
+                    "type": "boolean",
+                    "name": "yellowcarnumber",
+                    "label": "Жёлтые номера"
+                },
+                {
+                    "type": "boolean",
+                    "name": "conditioner",
+                    "label": "Кондиционер"
+                },
+                {
+                    "type": "boolean",
+                    "name": "nosmoking",
+                    "label": "Некурящий водитель"
+                },
+                {
+                    "type": "boolean",
+                    "name": "animaltransport",
+                    "label": "Перевозка домашнего животного"
+                },
+                {
+                    "type": "boolean",
+                    "name": "bicycle_other",
+                    "label": "Велосипед"
+                },
+                {
+                    "type": "boolean",
+                    "name": "childchair_other",
+                    "label": "Детское кресло"
+                },
+                {
+                    "type": "boolean",
+                    "name": "own_chair_v2",
+                    "label": "Своё детское кресло"
+                },
+                {
+                    "type": "boolean",
+                    "name": "meeting_arriving",
+                    "label": "Встреча с табличкой"
+                },
+                {
+                    "type": "boolean",
+                    "name": "guide_dog",
+                    "label": "Перевозка собаки-поводыря"
+                },
+                {
+                    "type": "boolean",
+                    "name": "need_help_to_find_car",
+                    "label": "Помогите найти машину"
+                },
+                {
+                    "type": "boolean",
+                    "name": "have_wheelchair",
+                    "label": "Буду с инвалидным креслом"
+                },
+                {
+                    "type": "boolean",
+                    "name": "communicate_only_in_chat",
+                    "label": "Общаюсь только текстом"
+                },
+                {
+                    "type": "boolean",
+                    "name": "hear_but_not_speak",
+                    "label": "Не говорю, но слышу"
+                },
+                {
+                    "type": "boolean",
+                    "name": "move_things",
+                    "label": "Донести вещи, проводить"
+                }
+            ]
+        },
+        {
+            "name": "business",
+            "name_translate": "Комфорт",
+            "max_route_points_count": 10,
+            "has_extra_contact_phone": false,
+            "req_destination": false,
+            "supported_requirements": [
+                {
+                    "type": "boolean",
+                    "name": "animaltransport",
+                    "label": "Перевозка домашнего животного"
+                },
+                {
+                    "type": "boolean",
+                    "name": "need_help_to_find_car",
+                    "label": "Помогите найти машину"
+                },
+                {
+                    "type": "boolean",
+                    "name": "guide_dog",
+                    "label": "Перевозка собаки-поводыря"
+                },
+                {
+                    "type": "boolean",
+                    "name": "hear_but_not_speak",
+                    "label": "Не говорю, но слышу"
+                },
+                {
+                    "type": "boolean",
+                    "name": "communicate_only_in_chat",
+                    "label": "Общаюсь только текстом"
+                },
+                {
+                    "type": "boolean",
+                    "name": "have_wheelchair",
+                    "label": "Буду с инвалидным креслом"
+                },
+                {
+                    "type": "select",
+                    "name": "childchair_v2",
+                    "label": "Детское кресло",
+                    "select": {
+                        "options": [
+                            {
+                                "name": "infant",
+                                "label": "9–18 кг",
+                                "title": "Кресло, от 9 мес. до 4 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 1
+                            },
+                            {
+                                "name": "chair",
+                                "label": "15–25 кг",
+                                "title": "Кресло, 3–7 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 3
+                            },
+                            {
+                                "name": "booster",
+                                "label": "22–36 кг",
+                                "title": "Бустер, 6–12 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 7
+                            },
+                            {
+                                "name": "bassinet",
+                                "label": "До 13 кг",
+                                "title": "Люлька, до 1 года",
+                                "weight": 2.0,
+                                "max_count": 1,
+                                "value": 11
+                            },
+                            {
+                                "name": "own_chair",
+                                "label": "Своё детское кресло",
+                                "title": "Своё кресло",
+                                "weight": 1.0,
+                                "max_count": 1,
+                                "value": 10
+                            }
+                        ],
+                        "type": "number"
+                    },
+                    "multiselect": true,
+                    "max_weight": 2.0
+                },
+                {
+                    "type": "select",
+                    "name": "childchair_for_child_tariff",
+                    "label": "Детское кресло",
+                    "select": {
+                        "options": [
+                            {
+                                "name": "booster",
+                                "label": "22–36 кг",
+                                "title": "Бустер, 6–12 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 7
+                            }
+                        ],
+                        "type": "number"
+                    },
+                    "multiselect": true,
+                    "max_weight": 2.0
+                }
+            ]
+        },
+        {
+            "name": "cargo",
+            "name_translate": "Грузовой",
+            "max_route_points_count": 5,
+            "has_extra_contact_phone": false,
+            "req_destination": false,
+            "supported_requirements": [
+                {
+                    "type": "select",
+                    "name": "cargo_type_int",
+                    "label": "Тип кузова",
+                    "select": {
+                        "options": [
+                            {
+                                "name": "van",
+                                "label": "170x100x90 см, до 300 кг",
+                                "title": "Маленький кузов",
+                                "max_count": 1,
+                                "value": 1
+                            },
+                            {
+                                "name": "lcv_m",
+                                "label": "260x130x150 см, до 700 кг",
+                                "title": "Средний кузов",
+                                "max_count": 1,
+                                "value": 2
+                            },
+                            {
+                                "name": "lcv_l",
+                                "label": "380x180x180 см, до 1400 кг",
+                                "title": "Большой кузов",
+                                "max_count": 1,
+                                "value": 3
+                            }
+                        ],
+                        "type": "number"
+                    },
+                    "multiselect": false
+                },
+                {
+                    "type": "boolean",
+                    "name": "passenger_seat",
+                    "label": "Свободное пассажирское место"
+                }
+            ]
+        },
+        {
+            "name": "comfortplus",
+            "name_translate": "Комфорт+",
+            "max_route_points_count": 5,
+            "has_extra_contact_phone": false,
+            "req_destination": false,
+            "supported_requirements": [
+                {
+                    "type": "boolean",
+                    "name": "animaltransport",
+                    "label": "Перевозка домашнего животного"
+                },
+                {
+                    "type": "select",
+                    "name": "childchair_for_child_tariff",
+                    "label": "Детское кресло",
+                    "select": {
+                        "options": [
+                            {
+                                "name": "booster",
+                                "label": "22–36 кг",
+                                "title": "Бустер, 6–12 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 7
+                            }
+                        ],
+                        "type": "number"
+                    },
+                    "multiselect": true,
+                    "max_weight": 2.0
+                },
+                {
+                    "type": "select",
+                    "name": "childchair_v2",
+                    "label": "Детское кресло",
+                    "select": {
+                        "options": [
+                            {
+                                "name": "infant",
+                                "label": "9–18 кг",
+                                "title": "Кресло, от 9 мес. до 4 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 1
+                            },
+                            {
+                                "name": "chair",
+                                "label": "15–25 кг",
+                                "title": "Кресло, 3–7 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 3
+                            },
+                            {
+                                "name": "booster",
+                                "label": "22–36 кг",
+                                "title": "Бустер, 6–12 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 7
+                            },
+                            {
+                                "name": "bassinet",
+                                "label": "До 13 кг",
+                                "title": "Люлька, до 1 года",
+                                "weight": 2.0,
+                                "max_count": 1,
+                                "value": 11
+                            },
+                            {
+                                "name": "own_chair",
+                                "label": "Своё детское кресло",
+                                "title": "Своё кресло",
+                                "weight": 1.0,
+                                "max_count": 1,
+                                "value": 10
+                            }
+                        ],
+                        "type": "number"
+                    },
+                    "multiselect": true,
+                    "max_weight": 2.0
+                }
+            ]
+        },
+        {
+            "name": "maybach",
+            "name_translate": "Élite",
+            "max_route_points_count": 5,
+            "has_extra_contact_phone": false,
+            "req_destination": false,
+            "supported_requirements": [
+                {
+                    "type": "boolean",
+                    "name": "door_to_door",
+                    "label": "От двери до двери"
+                },
+                {
+                    "type": "select",
+                    "name": "double_childchair_moscow",
+                    "label": "Детское кресло",
+                    "select": {
+                        "options": [
+                            {
+                                "name": "infant",
+                                "label": "От 9 мес., 9–18 кг",
+                                "title": "Кресло, от 9 мес. до 4 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 1
+                            },
+                            {
+                                "name": "chair",
+                                "label": "15–25 кг",
+                                "title": "Кресло, 3–7 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 3
+                            },
+                            {
+                                "name": "booster",
+                                "label": "22–36 кг",
+                                "title": "Бустер, 6–12 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 7
+                            }
+                        ],
+                        "type": "number"
+                    },
+                    "multiselect": true,
+                    "max_weight": 2.0
+                },
+                {
+                    "type": "boolean",
+                    "name": "dont_open_door",
+                    "label": "Открою дверь самостоятельно"
+                },
+                {
+                    "type": "boolean",
+                    "name": "quiet_ride",
+                    "label": "Поездка в тишине"
+                },
+                {
+                    "type": "boolean",
+                    "name": "best_drivers",
+                    "label": "Водители с высоким рейтингом"
+                },
+                {
+                    "type": "select",
+                    "name": "childchair_v2",
+                    "label": "Детское кресло",
+                    "select": {
+                        "options": [
+                            {
+                                "name": "infant",
+                                "label": "9–18 кг",
+                                "title": "Кресло, от 9 мес. до 4 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 1
+                            },
+                            {
+                                "name": "chair",
+                                "label": "15–25 кг",
+                                "title": "Кресло, 3–7 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 3
+                            },
+                            {
+                                "name": "booster",
+                                "label": "22–36 кг",
+                                "title": "Бустер, 6–12 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 7
+                            },
+                            {
+                                "name": "bassinet",
+                                "label": "До 13 кг",
+                                "title": "Люлька, до 1 года",
+                                "weight": 2.0,
+                                "max_count": 1,
+                                "value": 11
+                            },
+                            {
+                                "name": "own_chair",
+                                "label": "Своё детское кресло",
+                                "title": "Своё кресло",
+                                "weight": 1.0,
+                                "max_count": 1,
+                                "value": 10
+                            }
+                        ],
+                        "type": "number"
+                    },
+                    "multiselect": true,
+                    "max_weight": 2.0
+                },
+                {
+                    "type": "boolean",
+                    "name": "move_things",
+                    "label": "Донести вещи, проводить"
+                },
+                {
+                    "type": "boolean",
+                    "name": "small_dog_animaltransport",
+                    "label": "Небольшая собака (до 10 кг)"
+                },
+                {
+                    "type": "boolean",
+                    "name": "big_dog_animaltransport",
+                    "label": "Крупная собака (от 10 кг)"
+                },
+                {
+                    "type": "boolean",
+                    "name": "cat_animaltransport",
+                    "label": "Кошка"
+                },
+                {
+                    "type": "boolean",
+                    "name": "other_animaltransport",
+                    "label": "Другое животное"
+                }
+            ]
+        },
+        {
+            "name": "ultimate",
+            "name_translate": "Premier",
+            "max_route_points_count": 5,
+            "has_extra_contact_phone": false,
+            "req_destination": false,
+            "supported_requirements": [
+                {
+                    "type": "boolean",
+                    "name": "animaltransport",
+                    "label": "Перевозка домашнего животного"
+                },
+                {
+                    "type": "select",
+                    "name": "childchair_moscow",
+                    "label": "Детское кресло",
+                    "select": {
+                        "options": [
+                            {
+                                "name": "booster",
+                                "label": "22-36 кг, от 7 до 12 лет",
+                                "title": "Бустер",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 7
+                            }
+                        ],
+                        "type": "number"
+                    },
+                    "multiselect": true,
+                    "max_weight": 2.0
+                },
+                {
+                    "type": "boolean",
+                    "name": "animaltransport",
+                    "label": "Перевозка домашнего животного"
+                },
+                {
+                    "type": "select",
+                    "name": "childchair_moscow",
+                    "label": "Детское кресло",
+                    "select": {
+                        "options": [
+                            {
+                                "name": "booster",
+                                "label": "22-36 кг, от 7 до 12 лет",
+                                "title": "Бустер",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 7
+                            }
+                        ],
+                        "type": "number"
+                    },
+                    "multiselect": true,
+                    "max_weight": 2.0
+                },
+                {
+                    "type": "boolean",
+                    "name": "dont_open_door",
+                    "label": "Открою дверь самостоятельно"
+                },
+                {
+                    "type": "boolean",
+                    "name": "quiet_ride",
+                    "label": "Поездка в тишине"
+                },
+                {
+                    "type": "select",
+                    "name": "childchair_v2",
+                    "label": "Детское кресло",
+                    "select": {
+                        "options": [
+                            {
+                                "name": "infant",
+                                "label": "9–18 кг",
+                                "title": "Кресло, от 9 мес. до 4 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 1
+                            },
+                            {
+                                "name": "chair",
+                                "label": "15–25 кг",
+                                "title": "Кресло, 3–7 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 3
+                            },
+                            {
+                                "name": "booster",
+                                "label": "22–36 кг",
+                                "title": "Бустер, 6–12 лет",
+                                "weight": 1.0,
+                                "max_count": 2,
+                                "value": 7
+                            },
+                            {
+                                "name": "bassinet",
+                                "label": "До 13 кг",
+                                "title": "Люлька, до 1 года",
+                                "weight": 2.0,
+                                "max_count": 1,
+                                "value": 11
+                            },
+                            {
+                                "name": "own_chair",
+                                "label": "Своё детское кресло",
+                                "title": "Своё кресло",
+                                "weight": 1.0,
+                                "max_count": 1,
+                                "value": 10
+                            }
+                        ],
+                        "type": "number"
+                    },
+                    "multiselect": true,
+                    "max_weight": 2.0
+                }
+            ]
+        }
+    ],
+    "default_tariff_class": "vip"
+}

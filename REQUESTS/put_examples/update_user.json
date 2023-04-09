@@ -1,0 +1,14 @@
+{
+    "fullname": "Джошуя Ганоцри",
+    "phone": "+79990000000",
+    "is_active": true,
+    "nickname": "55555",
+    "cost_centers_id": "2215117270474a319b10d757445d719a",
+    "cost_center": "Основной центр затрат",
+    "limits": [
+        {
+            "limit_id": "fc2dec49b1d5401580e45f8bca129e92",
+            "service": "taxi"
+        }
+    ]
+}

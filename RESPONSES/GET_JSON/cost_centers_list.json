@@ -1,0 +1,195 @@
+{
+    "items": [
+        {
+            "name": "Основной центр затрат",
+            "id": "2215117270474a319b10d757445d719a",
+            "default": true,
+            "field_settings": [
+                {
+                    "title": "Цель",
+                    "required": false,
+                    "hidden": true,
+                    "services": [
+                        "taxi"
+                    ],
+                    "format": "text",
+                    "values": [],
+                    "id": "cost_center"
+                },
+                {
+                    "title": "Цель поездки",
+                    "required": true,
+                    "hidden": false,
+                    "services": [
+                        "taxi",
+                        "cargo"
+                    ],
+                    "format": "select",
+                    "values": [
+                        "На работу",
+                        "С работы"
+                    ],
+                    "id": "0ddf66708f0245b0a988c68d1cd886cf"
+                },
+                {
+                    "title": "Номер дела",
+                    "required": true,
+                    "hidden": true,
+                    "services": [
+                        "taxi"
+                    ],
+                    "format": "text",
+                    "values": [
+                        "Еда",
+                        "Вода"
+                    ],
+                    "id": "7ba49ce6f64f4c029eb46d60cbc9e344"
+                }
+            ]
+        },
+        {
+            "name": "TEST центр затрат",
+            "id": "852fefc1219c4779b012ce740e659edf",
+            "default": false,
+            "field_settings": [
+                {
+                    "title": "Цель",
+                    "required": true,
+                    "hidden": true,
+                    "services": [
+                        "taxi"
+                    ],
+                    "format": "text",
+                    "values": [],
+                    "id": "cost_center"
+                },
+                {
+                    "title": "Цель поездки",
+                    "required": false,
+                    "hidden": true,
+                    "services": [
+                        "taxi",
+                        "cargo"
+                    ],
+                    "format": "select",
+                    "values": [
+                        "По работе 1",
+                        "Не по работе 1"
+                    ],
+                    "id": "0ddf66708f0245b0a988c68d1cd886cf"
+                },
+                {
+                    "title": "Номер дела",
+                    "required": false,
+                    "hidden": true,
+                    "services": [
+                        "taxi"
+                    ],
+                    "format": "mixed",
+                    "values": [
+                        "По работе 2",
+                        "Не по работе 2"
+                    ],
+                    "id": "7ba49ce6f64f4c029eb46d60cbc9e344"
+                }
+            ]
+        },
+        {
+            "name": "ТЕСТ",
+            "id": "3b7582c62c2d40e8ae803f3c7dc06a6e",
+            "default": false,
+            "field_settings": [
+                {
+                    "title": "Цель",
+                    "required": true,
+                    "hidden": true,
+                    "services": [
+                        "taxi"
+                    ],
+                    "format": "text",
+                    "values": [],
+                    "id": "cost_center"
+                },
+                {
+                    "title": "Цель поездки",
+                    "required": false,
+                    "hidden": true,
+                    "services": [
+                        "taxi",
+                        "cargo"
+                    ],
+                    "format": "select",
+                    "values": [
+                        "На работу",
+                        "С работы"
+                    ],
+                    "id": "0ddf66708f0245b0a988c68d1cd886cf"
+                },
+                {
+                    "title": "Номер дела",
+                    "required": false,
+                    "hidden": true,
+                    "services": [
+                        "taxi"
+                    ],
+                    "format": "mixed",
+                    "values": [
+                        "1 блябля",
+                        "2 ляля"
+                    ],
+                    "id": "7ba49ce6f64f4c029eb46d60cbc9e344"
+                }
+            ]
+        },
+        {
+            "name": "Дополнительный",
+            "id": "598a64159fc340dc844c1141c7c3a991",
+            "default": false,
+            "field_settings": [
+                {
+                    "title": "Цель",
+                    "required": false,
+                    "hidden": true,
+                    "services": [
+                        "taxi"
+                    ],
+                    "format": "text",
+                    "values": [],
+                    "id": "cost_center"
+                },
+                {
+                    "title": "Цель поездки",
+                    "required": false,
+                    "hidden": true,
+                    "services": [
+                        "taxi",
+                        "cargo"
+                    ],
+                    "format": "mixed",
+                    "values": [
+                        "На работу",
+                        "С работы"
+                    ],
+                    "id": "0ddf66708f0245b0a988c68d1cd886cf"
+                },
+                {
+                    "title": "Номер дела",
+                    "required": true,
+                    "hidden": true,
+                    "services": [
+                        "taxi"
+                    ],
+                    "format": "text",
+                    "values": [
+                        "Еда",
+                        "Вода"
+                    ],
+                    "id": "7ba49ce6f64f4c029eb46d60cbc9e344"
+                }
+            ]
+        }
+    ],
+    "limit": 100,
+    "offset": 0,
+    "total_amount": 4
+}

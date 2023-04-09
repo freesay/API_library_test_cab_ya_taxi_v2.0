@@ -1,0 +1,55 @@
+{
+    "title": "Название лимита",
+    "client_id": "id клиента",
+    "service": "taxi",
+    "categories": [
+        "child_tariff",
+        "cargo",
+        "business",
+        "courier",
+        "express",
+        "premium_van",
+        "comfortplus",
+        "ultimate",
+        "minivan",
+        "vip",
+        "maybach",
+        "econom"
+    ],
+    "limits": {
+        "orders_cost": {
+            "value": "818181",
+            "period": "month"
+        },
+        "orders_amount": {
+            "value": 2,
+            "period": "day"
+        }
+    },
+    "time_restrictions": [
+        {
+            "type": "range_date",
+            "start_date": "2022-09-02T00:00:00",
+            "end_date": "2022-09-14T00:00:00"
+        },
+        {
+            "type": "weekly_date",
+            "start_time": "00:00:00",
+            "end_time": "23:59:00",
+            "days": [
+                "fr",
+                "mo",
+                "th",
+                "tu",
+                "we"
+            ]
+        }
+    ],
+    "geo_restrictions": [
+        {
+            "source": "e87d178829b24d20b9eba262da5eb966",
+            "destination": "3ff4d32ef1074d4ca33c1db61047e06f",
+            "prohibiting_restriction": true
+        }
+    ]
+}

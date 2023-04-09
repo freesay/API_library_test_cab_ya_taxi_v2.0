@@ -1,0 +1,28 @@
+{
+    "route": [
+        {
+            "geopoint": [
+                37.562394,
+                55.792993
+            ],
+            "fullname": "Москва"
+        },
+        {
+            "geopoint": [
+                37.609479,
+                55.746943
+            ],
+            "fullname": "Москва"
+        }
+    ],
+    "user_id": "035...c71",
+    "class": "econom",
+    "cost_center_values": [
+        {
+            "id": "9af...12a",
+            "title": "Цель поездки",
+            "value": "по делам"
+        }
+    ],
+    "offer": "edd...234"
+}

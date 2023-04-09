@@ -1,0 +1,10 @@
+{
+    "errors": [
+        {
+            "text": "Method Not Allowed",
+            "code": "GENERAL"
+        }
+    ],
+    "message": "Method Not Allowed",
+    "code": "GENERAL"
+}
